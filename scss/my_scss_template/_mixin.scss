@@ -1,0 +1,23 @@
+@mixin placeholder {
+    &::placeholder {@content;}
+    &:-moz-placeholder {@content;}
+    &::-moz-placeholder {@content;}
+    &:-ms-input-placeholder {@content;}
+    &::-webkit-input-placeholder {@content;}
+}
+
+@mixin mq($width) {
+    @if map-has-key($breakpoints, $width) {
+        $width: map-get($breakpoints, $width);
+        @media only screen and (max-width: $width) {
+            @content;
+        }
+    }
+}
+
+@mixin line-clamp($line) {
+    display: -webkit-box;
+    -webkit-line-clamp: $line;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

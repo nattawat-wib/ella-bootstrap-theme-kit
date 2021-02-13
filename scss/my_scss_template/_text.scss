@@ -1,0 +1,57 @@
+@import "../main/theme";
+
+// font-size
+@for $size from 10 through 80 {
+    @if $size % 2 == 0 {
+        .fs-#{$size} {
+            font-size: $size + px !important;
+        }
+    }
+}
+
+@each $class-name, $value in $breakpoints {
+    @media only screen and (min-width: $value) {
+        @for $size from 10 through 80 {
+            @if $size % 2 == 0 {
+                .fs-#{$class-name}-#{$size} {
+                    font-size: $size + px !important;
+                }
+            } 
+        }
+    }
+}
+
+//font-weight
+$font-wight-list: (
+    "thin": 100,
+    "lighter": 200,
+    "light": 300,
+    "normal": 400,
+    "medium": 500,
+    "semi-bold": 600,
+    "bold": 700,
+    "bolder": 800,
+    "black": 900,
+);
+
+@each $class-name, $value in $font-wight-list {
+    .fw-#{$class-name} {
+        font-weight: $value !important;
+    }
+}
+
+//line height
+$line-height-list: (
+    "xsm": 1,
+    "sm": 1.25,
+    "md": 1.5,
+    "lg": 1.75,
+    "xl": 2,
+    "xxl": 2.25,
+);
+
+@each $class-name, $value in $line-height-list {
+    .lh-#{$class-name} {
+        line-height: $value !important;
+    }
+}

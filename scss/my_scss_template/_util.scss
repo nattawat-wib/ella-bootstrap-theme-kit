@@ -1,0 +1,14 @@
+//border
+// $border-width-list: (
+//     "2": 2px,
+//     "3": 3px,
+//     "4": 4px,
+//     "5": 5px
+// );
+
+// @each $class-name, $value in $border-width-list {
+//     .border-#{$class-name} {
+//         border-width: $value !important;
+//     }
+// }
+

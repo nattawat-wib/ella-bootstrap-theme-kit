@@ -1,0 +1,37 @@
+@import "../main/theme";
+
+$primary:           $primary !default;
+$primary-light:     $primary-light !default;
+$primary-dark:      $primary-dark !default;
+$secondary:         $secondary !default;
+$secondary-light:   $secondary-light !default;
+$secondary-dark:    $secondary-dark !default;
+$gray:              $gray !default;
+$gray-light:        $gray-light !default;
+$gray-dark:         $gray-dark !default;
+$dark:              $dark !default;
+$light:             $light !default;
+$success:           $success !default;
+$info:              $info !default;
+$warning:           $warning !default;
+$danger:            $danger !default;
+$transparent:      transparent !default;
+
+$colors-system: (
+    "primary":           $primary,
+    "primary-light":     $primary-light,
+    "primary-dark":      $primary-dark,
+    "secondary":         $secondary,
+    "secondary-light":   $secondary-light,
+    "secondary-dark":    $secondary-dark,
+    "gray":              $gray,
+    "gray-light":        $gray-light,
+    "gray-dark":         $gray-dark,
+    "dark":              $dark,
+    "light":             $light,
+    "info":              $info,
+    "warning":           $warning,
+    "danger":            $danger,
+    "success":           $success,
+    "transparent":       $transparent
+);

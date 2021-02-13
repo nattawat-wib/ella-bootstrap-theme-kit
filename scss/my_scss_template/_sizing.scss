@@ -1,0 +1,72 @@
+@import "../main/theme";
+
+$size-list: (
+            "25": 25%,
+            "50": 50%,
+            "75": 75%,
+            "100": 100%,
+        );
+
+$view-port-size-list: (
+            "25": 25vh,
+            "50": 50vh,
+            "75": 75vh,
+            "100": 100vh,
+        );
+
+@each $class-name, $value in $breakpoints {
+    @media only screen and (min-width: $value) {
+        @each $size-name, $size in $size-list {
+            
+            .w-#{$class-name}-#{$size-name} { 
+                width: $size !important;
+            }
+            .mw-#{$class-name}-#{$size-name} {
+                max-width: $size !important;
+            }
+
+            .h-#{$class-name}-#{$size-name} {
+                height: $size !important;
+            }
+            .mh-#{$class-name}-#{$size-name} {
+                max-height: $size !important;
+            }
+        }
+
+        @each $size-name, $size in $view-port-size-list {
+            .vw-#{$class-name}-#{$size-name} {
+                width: $size !important;
+            }
+            .vh-#{$class-name}-#{$size-name} {
+                height: $size !important;
+            }
+        }
+
+        .h-#{$value}-auto {
+            width: auto !important;
+        }
+        .w-#{$value}-auto {
+            width: auto !important;
+        }
+    }
+}
+
+.vh-75 {
+    height: 75vh;
+}
+.vh-50 {
+    height: 50vh;
+}
+.vh-25 {
+    height: 25vh;
+}
+
+.wh-75 {
+    width: 75vw;
+}
+.wh-50 {
+    width: 50vw;
+}
+.wh-25 {
+    width: 25vw;
+}

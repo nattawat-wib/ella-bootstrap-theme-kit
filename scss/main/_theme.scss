@@ -1,0 +1,27 @@
+@import "../my_scss_template/mixin";
+
+$primary:          #018667 ;
+$primary-light:    #D4D7C4 ;
+$primary-dark:     #0a2018 ;
+$secondary:        #F8E19F ;
+$secondary-light:  #D4D7C4 ;
+$secondary-dark:   #E3BD6A ;
+$gray:             #E5E5E5 ;
+$gray-light:       #F6F6F6 ;
+$gray-dark:        #828282 ;
+$dark:             #232323 ;
+$light:            #FDFDFD ;  
+$success:          #28a745 ;
+$info:             #17a2b8 ;
+$warning:          #ffc107 ;
+$danger:           #dc3545 ;
+$transparent:      transparent;
+
+$breakpoints: (
+    "xsm": 375px,
+    "sm": 576px,
+    "md": 768px,
+    "lg": 992px,
+    "xl": 1200px,
+    "xxl": 1400px,
+);
