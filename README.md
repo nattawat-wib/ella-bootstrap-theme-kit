@@ -1,7 +1,13 @@
-# :clap: Ella's Boostrap Theme Kit V 1.0.0 :clap:
+# :clap: Ella's Bootstrap Theme Kit V 1.1.0 :clap:
  
-## What's extend from pure bootsrap 4.6
-#### 1. More responsove things !!!
+## What's extend from pure bootstrap 4.6
+#### 1. More responsive things !!!
+
+--- 
+# :clap: Ella's Bootstrap Theme Kit V 1.1.0 :clap:
+ 
+## What's extend from pure bootstrap 4.6
+#### 1. More responsive things !!!
   - responsive width size have already done :heart_eyes:
   
     - w-xxl-100, 75, 50, 25
@@ -25,8 +31,9 @@
     - mw-xl-100
     - mh-xl-100
     
-  - responsove font size
+  - responsive font size
     
+    - fs-1, ..., 9
     - fs-xxl-1, 2, 3, ..., 9
     - fs-xl-1
     - fs-lg-1
@@ -35,12 +42,14 @@
     - fs-xsm-1
     
      ============
-    
-    - fs-1
-    - fs-2
-    - fs-3
-    - ... 
-    - fs-9
+
+    - fs-10, ..., 70
+    - fs-xxl-10, 11, 12, ..., 70
+    - fs-xl-10
+    - fs-lg-10
+    - fs-md-10
+    - fs-sm-10
+    - fs-xsm-10
   
   - responsive viewport sizing
     
