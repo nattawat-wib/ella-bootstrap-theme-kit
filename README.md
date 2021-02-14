@@ -7,18 +7,23 @@
 ![NodeJS](https://img.shields.io/badge/node.js%20-70BC4F.svg?&style=for-the-badge&logo=node.js&logoColor=white)
 -->
 
-![Bootstrap](https://img.shields.io/badge/bootstrap%20-v4.6-b98aff.svg?&style=flat&logo=bootstrap&logoColor=white)
-![SASS](https://img.shields.io/badge/SASS-v5.0.0-hotpink.svg?&style=flat&logo=SASS&logoColor=white)
-![jQuery](https://img.shields.io/badge/jquery%20-v3.5.1-%230769AD.svg?&style=flat&logo=jquery&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js%20-v14.15.1-70BC4F.svg?&style=flat&logo=node.js&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap%20-v4.6-b98aff.svg?&style=flat-square&logo=bootstrap&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-v5.0.0-hotpink.svg?&style=flat-square&logo=SASS&logoColor=white)
+![jQuery](https://img.shields.io/badge/jquery%20-v3.5.1-%230769AD.svg?&style=flat-square&logo=jquery&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js%20-v14.15.1-70BC4F.svg?&style=flat-square&logo=node.js&logoColor=white)
 
-## What's extend from pure bootstrap 4.6
-#### 1. More responsive things !!!
-    
+## 3 Step Usage :+1:
+
+1. setup color-system and breakpoint for your project in scss/main/_theme.scss
+
+2. open terminal and run ``npm run run-all``
+
+3. Let's CODEEEEE !!!!! :fire: :fire:
+
+
 --- 
-# :clap: Ella's Bootstrap Theme Kit v1.0.0 :clap:
  
-## What's extend from pure bootstrap 4.6
+## What extend from pure bootstrap 4.6
 #### 1. More responsive things !!!
   - responsive width size have already done :heart_eyes:
   
@@ -43,25 +48,7 @@
     - mw-xl-100
     - mh-xl-100
     
-  - responsive font size
-    
-    - fs-1, ..., 9
-    - fs-xxl-1, 2, 3, ..., 9
-    - fs-xl-1
-    - fs-lg-1
-    - fs-md-1
-    - fs-sm-1
-    - fs-xsm-1
-    
      ============
-
-    - fs-10, ..., 70
-    - fs-xxl-10, 11, 12, ..., 70
-    - fs-xl-10
-    - fs-lg-10
-    - fs-md-10
-    - fs-sm-10
-    - fs-xsm-10
   
   - responsive viewport sizing
     
@@ -74,7 +61,7 @@
     
      ============
     
-    - vh-xxl-100, 75, 50, 25
+    - vh-xxl-100, 75, 50, 25 
     - vh-xl-100
     - vh-lg-100
     - vh-md-100
@@ -98,15 +85,17 @@
     - fw-#{$value} : font-weight
     - lh-#{$value} : line-hight
 
-    - border width size is available
+    - fs-10, ..., 70
+    - fs-xxl-10, 11, 12, ..., 70
+    - fs-xl-10
+    - fs-lg-10
+    - fs-md-10
+    - fs-sm-10
+    - fs-xsm-10
     
-### other
-1. script npm run for build all template
+## Included
 
-2. simple source setup
-
-## Files included
-
+### files
 ```
 ella-bootstrap-theme-kit/
 │   
@@ -116,7 +105,8 @@ ella-bootstrap-theme-kit/
 |   |          └── bootstrap.scss
 |   |
 │   ├── main/
-|   |    ├── _theme.scss
+|   |    ├── _theme.scss (*dynamic)
+|   |    ├── 404.scss
 |   |    └── index.scss
 |   |         
 │   └── my_scss_template/
@@ -128,22 +118,34 @@ ella-bootstrap-theme-kit/
 |        └── template.scss
 |              
 ├── view/
-│   ├── index.pug
-│   ├── error.pug
-│   └── layout/
-|         └── layout.pug
+│   ├── components/
+|   |     ├── footer.pug
+|   |     └── navbar.pug
+|   |
+│   ├── layout/
+|   |     ├── base-layout.pug 
+|   |     └── main-layout.pug (*dynamic)
+|   |
+|   ├── sub-pages/
+|   |
+|   ├── 404.pug
+|   ├── error.pug
+|   └── index.pug
 |
 └── package.json
 ```
 
-## 3 Step Usage :+1:
-
-1. setup color-system and breakpoint for your project in scss/main/_theme.scss
-
-2. open terminal and run ``npm run run all``
-
-3. Let's CODEEEEE !!!!! :fire: :fire:
+### build in set up
+  - Bootstrap v4.6 with jQuery
+  - SASS template
+  - script for run build in package.json
+  - project structure
+  - routes for page 404 not found
+  - owl carousel
 
 ---
+last edit : 14/02/2021
 
-last edit 07/02/2021
+#### previous version
+##### v1.0.0
+  - add 
