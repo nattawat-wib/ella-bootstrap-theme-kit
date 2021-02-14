@@ -1,11 +1,10 @@
 # :clap: Ella's Bootstrap Theme Kit v1.1.0 :clap:
 
-<!-- 
 ![Bootstrap](https://img.shields.io/badge/bootstrap%20-b98aff.svg?&style=for-the-badge&logo=bootstrap&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS%20-hotpink.svg?&style=for-the-badge&logo=SASS&logoColor=white)
 ![jQuery](https://img.shields.io/badge/jquery%20-%230769AD.svg?&style=for-the-badge&logo=jquery&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js%20-70BC4F.svg?&style=for-the-badge&logo=node.js&logoColor=white)
--->
+
 
 ![Bootstrap](https://img.shields.io/badge/bootstrap%20-v4.6-b98aff.svg?&style=flat-square&logo=bootstrap&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-v5.0.0-hotpink.svg?&style=flat-square&logo=SASS&logoColor=white)
