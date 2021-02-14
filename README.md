@@ -24,6 +24,7 @@
  
 ## What extend from vanilla bootstrap 4.6
 
+
 ### 1. More responsive size
   | Class | Dimension |
   | ----- | :-------- |
@@ -36,7 +37,8 @@
   | xxl   | ≥ 1400px  |
 
    > NOTE:
-   > special for Iphone5 / SE responsive
+   > * special for Iphone5 / SE responsive
+
 
 ### 2. More responsive things !!!
   
@@ -74,7 +76,7 @@
   | vh-75  | vh-xsm-75  | vh-sm-75  | vh-md-75  | vh-lg-75  | vh-xl-75  | vh-xxl-75  |      75vh       |
   | vh-100 | vh-xsm-100 | vh-sm-100 | vh-md-100 | vh-lg-100 | vh-xl-100 | vh-xxl-100 |      100vh      |
 
-        
+
 ### 3. mixin
    #### __@include__ mq($breakdownSize)
       Type: String
