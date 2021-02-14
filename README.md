@@ -77,8 +77,16 @@
     - placeholder: modify input's placeholder
 
 #### 4. Borrow from Bootstrap 5
-    - lh-xsm
-    - lh-sm
+    | class | detail |
+    |-------|---------|
+    | lh-xsm |  ddd |
+    | lh-sm  |      |
+    
+    | Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
     - lh-md
     - lh-lg
     - lh-xl
