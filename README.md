@@ -61,12 +61,12 @@
     
      ============
     
-    - vh-xxl-100, 75, 50, 25 
-    - vh-xl-100
-    - vh-lg-100
-    - vh-md-100
-    - vh-sm-100
-    - vh-xsm-100      
+  - vh-xxl-100, 75, 50, 25 
+  - vh-xl-100
+  - vh-lg-100
+  - vh-md-100
+  - vh-sm-100
+  - vh-xsm-100      
 
 #### 2. More responsive size
   - xsm >= 375px
@@ -76,39 +76,39 @@
     - mq: media query
     - placeholder: modify input's placeholder
 
-#### 4. Borrow from Bootstrap 5
-    | class | detail |
-    |-------|---------|
-    | lh-xsm |  ddd |
-    | lh-sm  |      |
-    
-    | Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+#### 4. Borrow from Bootstrap 5 
 
-    - lh-md
-    - lh-lg
-    - lh-xl
-    - lh-xxl
+  | class  | detail |
+  | ------ | :----: |
+  | lh-xsm |   1    |
+  | lh-sm  |  1.25  |
+  | lh-md  |  1.5   |
+  | lh-lg  |  1.75  |
+  | lh-xl  |   2    |
+  | lh-xxl |  2.25  |
 
-    - fw-thin
-    - fw-lighter
-    - fw-light
-    - fw-normal
-    - fw-medium
-    - fw-semi-bold
-    - fw-bold
-    - fw-bolder
-    - fw-black
+  | class        | detail |
+  | ------------ | :----: |
+  | fw-thin      |  100   |
+  | fw-lighter   |  200   |
+  | fw-light     |  300   |
+  | fw-normal    |  400   |
+  | fw-medium    |  500   |
+  | fw-semi-bold |  600   |
+  | fw-bold      |  700   |
+  | fw-bolder    |  800   |
+  | fw-black     |  900   |
 
-    - fs-10, ..., 70
-    - fs-xxl-10, 11, 12, ..., 70
-    - fs-xl-10
-    - fs-lg-10
-    - fs-md-10
-    - fs-sm-10
-    - fs-xsm-10
+  - fs-10, 12, 14, ..., 80
+  - fs-xxl-10
+  - fs-xl-10
+  - fs-lg-10
+  - fs-md-10
+  - fs-sm-10
+  - fs-xsm-10
+
+    * font size is available only even number
+
 
 #### 5. More color system :rainbow: :rainbow: :rainbow: 
 
@@ -162,6 +162,10 @@ ella-bootstrap-theme-kit/
   - routes for page 404 not found
   - owl carousel
 
+###### edited feature from previous version
+  - remove fs-1, ..., 9
+  - remove border class
+  - remove odd number from fs- class
 ---
 last edit : 14/02/2021
 
