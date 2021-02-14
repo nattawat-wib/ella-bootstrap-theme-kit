@@ -21,16 +21,16 @@ $view-port-size-list: (
             .w-#{$class-name}-#{$size-name} { 
                 width: $size !important;
             }
-            .mw-#{$class-name}-#{$size-name} {
-                max-width: $size !important;
-            }
+            // .mw-#{$class-name}-#{$size-name} {
+            //     max-width: $size !important;
+            // }
 
             .h-#{$class-name}-#{$size-name} {
                 height: $size !important;
             }
-            .mh-#{$class-name}-#{$size-name} {
-                max-height: $size !important;
-            }
+            // .mh-#{$class-name}-#{$size-name} {
+            //     max-height: $size !important;
+            // }
         }
 
         @each $size-name, $size in $view-port-size-list {
@@ -42,12 +42,12 @@ $view-port-size-list: (
             }
         }
 
-        .h-#{$value}-auto {
-            width: auto !important;
-        }
-        .w-#{$value}-auto {
-            width: auto !important;
-        }
+        // .h-#{$value}-auto {
+        //     width: auto !important;
+        // }
+        // .w-#{$value}-auto {
+        //     width: auto !important;
+        // }
     }
 }
 
