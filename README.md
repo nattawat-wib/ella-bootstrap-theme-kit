@@ -23,9 +23,9 @@
 
 --- 
  
-## What extend from pure bootstrap 4.6
+## What extend from vanilla bootstrap 4.6
 
-#### 1. More responsive size
+### 1. More responsive size
   | Class | Dimension |
   | ----- | :-------- |
   | -     | > 0px     |
@@ -39,10 +39,10 @@
     NOTE:
     *  special for Iphone5 / SE responsive
 
-#### 2. More responsive things !!!
+### 2. More responsive things !!!
   
 
-  ##### Width responsive
+   #### <center> Width responsive </center>
   | -     | xsm       | sm       | md       | lg       | xl       | xxl       | Width |
   | ----- | --------- | -------- | -------- | -------- | -------- | --------- | :---: |
   | w-25  | w-xsm-25  | w-sm-25  | w-md-25  | w-lg-25  | w-xl-25  | w-xxl-25  |  25%  |
@@ -50,7 +50,7 @@
   | w-75  | w-xsm-75  | w-sm-75  | w-md-75  | w-lg-75  | w-xl-75  | w-xxl-75  |  75%  |
   | w-100 | w-xsm-100 | w-sm-100 | w-md-100 | w-lg-100 | w-xl-100 | w-xxl-100 | 100%  |
 
-   ##### height responsive
+   #### <center> Height responsive </center>
   | -     | xsm       | sm       | md       | lg       | xl       | xxl       | Height |
   | ----- | --------- | -------- | -------- | -------- | -------- | --------- | :----: |
   | h-25  | h-xsm-25  | h-sm-25  | h-md-25  | h-lg-25  | h-xl-25  | h-xxl-25  |  25%   |
@@ -58,7 +58,8 @@
   | h-75  | h-xsm-75  | h-sm-75  | h-md-75  | h-lg-75  | h-xl-75  | h-xxl-75  |  75%   |
   | h-100 | h-xsm-100 | h-sm-100 | h-md-100 | h-lg-100 | h-xl-100 | h-xxl-100 |  100%  |
 
-  ##### Viewport width responsive
+
+  #### <center> Viewport width responsive </center>
   | -      | xsm        | sm        | md        | lg        | xl        | xxl        | Viewport width |
   | ------ | ---------- | --------- | --------- | --------- | --------- | ---------- | :------------: |
   | vw-25  | vw-xsm-25  | vw-sm-25  | vw-md-25  | vw-lg-25  | vw-xl-25  | vw-xxl-25  |      25vw      |
@@ -66,7 +67,7 @@
   | vw-75  | vw-xsm-75  | vw-sm-75  | vw-md-75  | vw-lg-75  | vw-xl-75  | vw-xxl-75  |      75vw      |
   | vw-100 | vw-xsm-100 | vw-sm-100 | vw-md-100 | vw-lg-100 | vw-xl-100 | vw-xxl-100 |     100vw      |
 
-   ##### Viewport height responsive
+  #### <center> Viewport height responsive </center>
   | -      | xsm        | sm        | md        | lg        | xl        | xxl        | Viewport height |
   | ------ | ---------- | --------- | --------- | --------- | --------- | ---------- | :-------------: |
   | vh-25  | vh-xsm-25  | vh-sm-25  | vh-md-25  | vh-lg-25  | vh-xl-25  | vh-xxl-25  |      25vh       |
@@ -75,25 +76,25 @@
   | vh-100 | vh-xsm-100 | vh-sm-100 | vh-md-100 | vh-lg-100 | vh-xl-100 | vh-xxl-100 |      100vh      |
 
         
-#### 3. mixin
-   ###### @include mq($breakdownSize)
+### 3. mixin
+   #### @include mq($breakdownSize)
       Type: String
       Default: -
       for media query
 
-   ###### @include placeholder()
+   #### @include placeholder()
       Type: -
       Default: -
       for modify input's placeholder
 
-   ###### @include line-clamp($lineNumber)
+   #### @include line-clamp($lineNumber)
       Type: Number
       Default: -
       for defined line clamp
 
-#### 4. Borrow from Bootstrap 5 
+### 4. Borrow from Bootstrap 5 
 
-###### line hight & font weight
+#### <center> line hight & font weight </center>
   | Class           | Line space |     | Class        | Font weight |
   | --------------- | :--------: | --- | ------------ | :---------: |
   | lh-xsm          |     1      |     | fw-thin      |     100     |
@@ -107,7 +108,7 @@
   |                 |            |     | fw-bolder    |     800     |
   |                 |            |     | fw-black     |     900     |
 
-###### Font size responsive
+#### <center> Font size responsive </center>
   | -     | xsm       | sm       | md       | lg       | xl       | xxl       | font size |
   | ----- | --------- | -------- | -------- | -------- | -------- | --------- | :-------: |
   | fs-10 | fs-xsm-10 | fs-sm-10 | fs-md-10 | fs-lg-10 | fs-xl-10 | fs-xxl-10 |   10px    |
@@ -118,7 +119,7 @@
   | fs-80 | fs-xsm-80 | fs-sm-80 | fs-md-80 | fs-lg-80 | fs-xl-80 | fs-xxl-80 |   80px    |
     * NOTE: font size is available only even number 10 to 80
 
-#### 5. More color system :rainbow: :rainbow: :rainbow: 
+### 5. More color system :rainbow: :rainbow: :rainbow: 
 
 ## Included
 
@@ -162,7 +163,7 @@ ella-bootstrap-theme-kit/
 └── package.json
 ```
 
-### build in set up
+## build in set up
   - Bootstrap v4.6 with jQuery
   - SASS template
   - script for run build in package.json
@@ -170,7 +171,7 @@ ella-bootstrap-theme-kit/
   - routes for page 404 not found
   - owl carousel
 
-###### edited feature from previous version
+#### edited feature from previous version
   - remove fs-1, ..., 9
   - remove border class
   - remove odd number from fs- class
@@ -180,8 +181,8 @@ ella-bootstrap-theme-kit/
 ---
 last edit : 14/02/2021
 
-#### previous version
-##### v1.0.0
+### previous version
+#### v1.0.0
   - set up prototype
   - add more responsive size xsm and xxl
   - add sizing responsive (with, height, max width, max height, vw and vh)
