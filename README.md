@@ -42,7 +42,7 @@
 ### 2. More responsive things !!!
   
 
-   #### <center> Width responsive </center>
+   <center> ####  Width responsive </center>
   | -     | xsm       | sm       | md       | lg       | xl       | xxl       | Width |
   | ----- | --------- | -------- | -------- | -------- | -------- | --------- | :---: |
   | w-25  | w-xsm-25  | w-sm-25  | w-md-25  | w-lg-25  | w-xl-25  | w-xxl-25  |  25%  |
