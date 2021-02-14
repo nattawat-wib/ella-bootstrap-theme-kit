@@ -72,18 +72,27 @@
   - xsm >= 375px
   - xxl >= 1400px
 
-#### 3. More color system :rainbow: :rainbow: :rainbow: 
-
-#### 4. Easier button create
-
-#### 5. mixin
+#### 3. mixin
     - mq: media query
     - placeholder: modify input's placeholder
 
-#### 6. Can use some utility things from Bootstrap 5 syntax
-    - fs-#{$value} : font-size
-    - fw-#{$value} : font-weight
-    - lh-#{$value} : line-hight
+#### 4. Borrow from Bootstrap 5
+    - lh-xsm
+    - lh-sm
+    - lh-md
+    - lh-lg
+    - lh-xl
+    - lh-xxl
+
+    - fw-thin
+    - fw-lighter
+    - fw-light
+    - fw-normal
+    - fw-medium
+    - fw-semi-bold
+    - fw-bold
+    - fw-bolder
+    - fw-black
 
     - fs-10, ..., 70
     - fs-xxl-10, 11, 12, ..., 70
@@ -92,7 +101,9 @@
     - fs-md-10
     - fs-sm-10
     - fs-xsm-10
-    
+
+#### 5. More color system :rainbow: :rainbow: :rainbow: 
+
 ## Included
 
 ### files
