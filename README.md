@@ -1,4 +1,4 @@
-# :clap: Ella's Bootstrap Theme Kit v1.1.0 :clap:
+# :clap: Ella's Bootstrap Theme Kit v1.2.0 :clap:
 
 ![Bootstrap](https://img.shields.io/badge/bootstrap%20-b98aff.svg?&style=for-the-badge&logo=bootstrap&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS%20-hotpink.svg?&style=for-the-badge&logo=SASS&logoColor=white)
@@ -22,22 +22,22 @@
 
 --- 
  
-## What extend from vanilla bootstrap 4.6
+## What extended from vanilla bootstrap 4.6
 
 
-### 1. More responsive size
-  | Class | Dimension |
-  | ----- | :-------- |
-  | -     | > 0px     |
-  | xsm * | ≥ 375px   |
-  | sm    | ≥ 576px   |
-  | md    | ≥ 768px   |
-  | lg    | ≥ 992px   |
-  | xl    | ≥ 1200px  |
-  | xxl   | ≥ 1400px  |
+### 1. More responsive sizes
+  | Class  | Dimension |
+  | ------ | :-------- |
+  | -      | > 0px     |
+  | xsm ** | ≥ 375px   |
+  | sm     | ≥ 576px   |
+  | md     | ≥ 768px   |
+  | lg     | ≥ 992px   |
+  | xl     | ≥ 1200px  |
+  | xxl    | ≥ 1400px  |
 
    > NOTE:
-   > * special for Iphone5 / SE responsive
+   > ** special for Iphone5/SE responsive
 
 
 ### 2. More responsive things !!!
@@ -93,7 +93,9 @@
       Default: -
       for defined line clamp
 
-### 4. Borrow from Bootstrap 5 
+### 4. More color system :rainbow: :rainbow: :rainbow: 
+
+### 5. Borrow from Bootstrap 5 
 
 #### line hight & font weight
   | Class           | Line space |     | Class        | Font weight |
@@ -118,9 +120,10 @@
   | fs-16 | fs-xsm-16 | fs-sm-16 | fs-md-16 | fs-lg-16 | fs-xl-16 | fs-xxl-16 |   16px    |
   | ...   | ...       | ...      | ...      | ...      | ...      | ...       |    ...    |
   | fs-80 | fs-xsm-80 | fs-sm-80 | fs-md-80 | fs-lg-80 | fs-xl-80 | fs-xxl-80 |   80px    |
-  > NOTE: font size is available only even number 10 to 80
+  > NOTE: font size is available only even number from 10 to 80
 
-### 5. More color system :rainbow: :rainbow: :rainbow: 
+### 6. Borrow from Tailwind
+  !!!! COMING SOON !!!!!
 
 ## Included
 
@@ -168,23 +171,29 @@ ella-bootstrap-theme-kit/
   - Bootstrap v4.6 with jQuery
   - SASS template
   - script for run build in package.json
-  - project structure
+  - project structure setup
   - routes for page 404 not found
   - owl carousel
 
-#### edited feature from previous version
-  - __remove__ fs-1, ..., 9
-  - __remove__ border class
-  - __remove__ odd number from fs- class
-  - __remove__ max width, max height responsive
-
-  - __add__ mixin line-clamp
+#### edited features from previous version
+  - __add__ images test folder
+  - __add__ hover class BETA
+  - __add__ .gitignore for node_modules
+  - __edit__ css link & setup more folder
+  - __move__ node-sass from devDependencies to dependencies
 ---
 last edit : 14/02/2021
 
 ### previous version
+#### v1.1.0
+  - __remove__ fs-1, ..., 9
+  - __remove__ border class
+  - __remove__ odd number from fs- class
+  - __remove__ max width, max height responsive
+  - __add__ mixin line-clamp
+
 #### v1.0.0
-  - set up prototype
+  - setup first prototype
   - __add__ more responsive size xsm and xxl
   - __add__ sizing responsive (with, height, max width, max height, vw and vh)
   - __add__ font size class by rem (fs-1, ..., 9)
