@@ -1,0 +1,10 @@
+@import "../main/theme";
+
+@each $color, $value in $colors-system {
+    .hover_#{$color} {
+        transition: .3s ease !important;
+        &:hover {
+            color: $value !important;
+        }
+    }
+}
