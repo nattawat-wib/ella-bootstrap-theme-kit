@@ -147,33 +147,28 @@ ella-bootstrap-theme-kit/
 |   |
 │   ├── main/
 |   |    ├── _theme.scss (*dynamic)
-|   |    ├── 404.scss
 |   |    └── index.scss
 |   |         
 │   └── my_scss_template/
 |        ├── _color.scss
 |        ├── _mixin.scss
 |        ├── _sizing.scss
+|        ├── _tailwind.scss
 |        ├── _text.scss
 |        ├── _util.scss
 |        └── template.scss
 |              
 ├── view/
-│   ├── components/
-|   |     ├── footer.pug
-|   |     └── navbar.pug
 |   |
 │   ├── layout/
 |   |     ├── base-layout.pug 
 |   |     └── main-layout.pug (*dynamic)
 |   |
-|   ├── sub-pages/
-|   |
-|   ├── 404.pug
 |   ├── error.pug
 |   └── index.pug
 |
-└── package.json
+├── package.json
+└── README.md
 ```
 
 ## build in set up
