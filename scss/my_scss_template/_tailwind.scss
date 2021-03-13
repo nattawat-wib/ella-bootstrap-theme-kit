@@ -1,9 +1,9 @@
-@import "../main/theme";
+// @import "../main/theme";
 
-@each $color-name, $color-value in $color-system {
+// @each $color-name, $color-value in $color-system {
 
-    .hover_#{$color-name}:hover {
-        color: $color-value !important;
-        transition: .3s ease !important;
-    }
-}
+//     .hover_#{$color-name}:hover {
+//         color: $color-value !important;
+//         transition: .3s ease !important;
+//     }
+// }

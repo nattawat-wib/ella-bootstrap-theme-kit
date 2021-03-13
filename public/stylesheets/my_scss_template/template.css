@@ -4,13 +4,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", "Kanit"; }
-
-a {
-  text-decoration: none;
-  color: inherit; }
-  a:hover {
-    text-decoration: none; }
+  font-family: "Roboto", "Kanit";
+  scroll-behavior: smooth; }
 
 .fs-10 {
   font-size: 10px !important; }
@@ -831,66 +826,21 @@ a {
 .wh-25 {
   width: 25vw; }
 
-.hover_primary:hover {
-  color: #018667 !important;
-  transition: .3s ease !important; }
+a {
+  text-decoration: none;
+  color: inherit; }
+  a:hover {
+    text-decoration: none; }
 
-.hover_primary-light:hover {
-  color: #D4D7C4 !important;
-  transition: .3s ease !important; }
+.xl-container {
+  max-width: 1450px;
+  margin: auto; }
 
-.hover_primary-dark:hover {
-  color: #0a2018 !important;
-  transition: .3s ease !important; }
-
-.hover_secondary:hover {
-  color: #F8E19F !important;
-  transition: .3s ease !important; }
-
-.hover_secondary-light:hover {
-  color: #D4D7C4 !important;
-  transition: .3s ease !important; }
-
-.hover_secondary-dark:hover {
-  color: #E3BD6A !important;
-  transition: .3s ease !important; }
-
-.hover_gray:hover {
-  color: #E5E5E5 !important;
-  transition: .3s ease !important; }
-
-.hover_gray-light:hover {
-  color: #F6F6F6 !important;
-  transition: .3s ease !important; }
-
-.hover_gray-dark:hover {
-  color: #828282 !important;
-  transition: .3s ease !important; }
-
-.hover_dark:hover {
-  color: #232323 !important;
-  transition: .3s ease !important; }
-
-.hover_light:hover {
-  color: #FDFDFD !important;
-  transition: .3s ease !important; }
-
-.hover_info:hover {
-  color: #17a2b8 !important;
-  transition: .3s ease !important; }
-
-.hover_warning:hover {
-  color: #ffc107 !important;
-  transition: .3s ease !important; }
-
-.hover_danger:hover {
-  color: #dc3545 !important;
-  transition: .3s ease !important; }
-
-.hover_success:hover {
-  color: #28a745 !important;
-  transition: .3s ease !important; }
-
-.hover_transparent:hover {
-  color: transparent !important;
-  transition: .3s ease !important; }
+.fit-img {
+  position: absolute;
+  object-fit: cover;
+  object-position: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
