@@ -1,20 +1,20 @@
 @import "../main/theme";
 
 // font-size
-@for $size from 10 through 80 {
-    @if $size % 2 == 0 {
-        .fs-#{$size} {
-            font-size: $size + px !important;
+@for $font-size-value from 10 through 80 {
+    @if $font-size-value % 2 == 0 {
+        .fs-#{$font-size-value} {
+            font-size: $font-size-value + px !important;
         }
     }
 }
 
-@each $class-name, $value in $breakpoints {
-    @media only screen and (min-width: $value) {
-        @for $size from 10 through 80 {
-            @if $size % 2 == 0 {
-                .fs-#{$class-name}-#{$size} {
-                    font-size: $size + px !important;
+@each $breakpoint-name, $breakpoint-value in $breakpoint-list {
+    @media only screen and (min-width: $breakpoint-value) {
+        @for $font-size-value from 10 through 80 {
+            @if $font-size-value % 2 == 0 {
+                .fs-#{$breakpoint-name}-#{$font-size-value} {
+                    font-size: $font-size-value + px !important;
                 }
             } 
         }
@@ -22,7 +22,7 @@
 }
 
 //font-weight
-$font-wight-list: (
+$font-weight-list: (
     "thin": 100,
     "lighter": 200,
     "light": 300,
@@ -34,9 +34,9 @@ $font-wight-list: (
     "black": 900,
 );
 
-@each $class-name, $value in $font-wight-list {
-    .fw-#{$class-name} {
-        font-weight: $value !important;
+@each $font-weight-name, $font-weight-value in $font-weight-list {
+    .fw-#{$font-weight-name} {
+        font-weight: $font-weight-value !important;
     }
 }
 
@@ -50,8 +50,8 @@ $line-height-list: (
     "xxl": 2.25,
 );
 
-@each $class-name, $value in $line-height-list {
-    .lh-#{$class-name} {
-        line-height: $value !important;
+@each $line-height-name, $line-height-value in $line-height-list {
+    .lh-#{$line-height-name} {
+        line-height: $line-height-value !important;
     }
 }

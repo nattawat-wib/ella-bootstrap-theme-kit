@@ -1,53 +1,42 @@
 @import "../main/theme";
 
-$size-list: (
+$percent-size-list: (
             "25": 25%,
             "50": 50%,
             "75": 75%,
             "100": 100%,
         );
 
-$view-port-size-list: (
+$viewport-size-list: (
             "25": 25vh,
             "50": 50vh,
             "75": 75vh,
             "100": 100vh,
         );
 
-@each $class-name, $value in $breakpoints {
-    @media only screen and (min-width: $value) {
-        @each $size-name, $size in $size-list {
+@each $breakpoint-name, $breakpoint-value in $breakpoint-list {
+    @media only screen and (min-width: $breakpoint-value) {
+        @each $percent-size-name, $percent-size-value in $percent-size-list {
             
-            .w-#{$class-name}-#{$size-name} { 
-                width: $size !important;
+            .w-#{$breakpoint-name}-#{$percent-size-name} { 
+                width: $percent-size-value !important;
             }
-            // .mw-#{$class-name}-#{$size-name} {
-            //     max-width: $size !important;
-            // }
-
-            .h-#{$class-name}-#{$size-name} {
-                height: $size !important;
-            }
-            // .mh-#{$class-name}-#{$size-name} {
-            //     max-height: $size !important;
-            // }
-        }
-
-        @each $size-name, $size in $view-port-size-list {
-            .vw-#{$class-name}-#{$size-name} {
-                width: $size !important;
-            }
-            .vh-#{$class-name}-#{$size-name} {
-                height: $size !important;
+                
+            .h-#{$breakpoint-name}-#{$percent-size-name} { 
+                height: $percent-size-value !important;
             }
         }
 
-        // .h-#{$value}-auto {
-        //     width: auto !important;
-        // }
-        // .w-#{$value}-auto {
-        //     width: auto !important;
-        // }
+        @each $viewport-size-name, $viewport-size-value in $viewport-size-list {
+
+            .vw-#{$breakpoint-name}-#{$viewport-size-name} {
+                width: $viewport-size-value !important;
+            }
+
+            .vh-#{$breakpoint-name}-#{$viewport-size-name} {
+                height: $viewport-size-value !important;
+            }
+        }
     }
 }
 

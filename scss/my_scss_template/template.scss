@@ -9,21 +9,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: $engFont, $thaiFont;
-}
-
-.mp0 {
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-
-    &:hover {
-        text-decoration: none;
-        // color: inherit;
-    }
+    scroll-behavior: smooth;
 }
 
 @import "color";

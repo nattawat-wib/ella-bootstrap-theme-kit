@@ -6,10 +6,6 @@ body {
   box-sizing: border-box;
   font-family: "Roboto", "Kanit"; }
 
-.mp0 {
-  margin: 0;
-  padding: 0; }
-
 a {
   text-decoration: none;
   color: inherit; }
@@ -835,82 +831,66 @@ a {
 .wh-25 {
   width: 25vw; }
 
-.hover_primary {
+.hover_primary:hover {
+  color: #018667 !important;
   transition: .3s ease !important; }
-  .hover_primary:hover {
-    color: #018667 !important; }
 
-.hover_primary-light {
+.hover_primary-light:hover {
+  color: #D4D7C4 !important;
   transition: .3s ease !important; }
-  .hover_primary-light:hover {
-    color: #D4D7C4 !important; }
 
-.hover_primary-dark {
+.hover_primary-dark:hover {
+  color: #0a2018 !important;
   transition: .3s ease !important; }
-  .hover_primary-dark:hover {
-    color: #0a2018 !important; }
 
-.hover_secondary {
+.hover_secondary:hover {
+  color: #F8E19F !important;
   transition: .3s ease !important; }
-  .hover_secondary:hover {
-    color: #F8E19F !important; }
 
-.hover_secondary-light {
+.hover_secondary-light:hover {
+  color: #D4D7C4 !important;
   transition: .3s ease !important; }
-  .hover_secondary-light:hover {
-    color: #D4D7C4 !important; }
 
-.hover_secondary-dark {
+.hover_secondary-dark:hover {
+  color: #E3BD6A !important;
   transition: .3s ease !important; }
-  .hover_secondary-dark:hover {
-    color: #E3BD6A !important; }
 
-.hover_gray {
+.hover_gray:hover {
+  color: #E5E5E5 !important;
   transition: .3s ease !important; }
-  .hover_gray:hover {
-    color: #E5E5E5 !important; }
 
-.hover_gray-light {
+.hover_gray-light:hover {
+  color: #F6F6F6 !important;
   transition: .3s ease !important; }
-  .hover_gray-light:hover {
-    color: #F6F6F6 !important; }
 
-.hover_gray-dark {
+.hover_gray-dark:hover {
+  color: #828282 !important;
   transition: .3s ease !important; }
-  .hover_gray-dark:hover {
-    color: #828282 !important; }
 
-.hover_dark {
+.hover_dark:hover {
+  color: #232323 !important;
   transition: .3s ease !important; }
-  .hover_dark:hover {
-    color: #232323 !important; }
 
-.hover_light {
+.hover_light:hover {
+  color: #FDFDFD !important;
   transition: .3s ease !important; }
-  .hover_light:hover {
-    color: #FDFDFD !important; }
 
-.hover_info {
+.hover_info:hover {
+  color: #17a2b8 !important;
   transition: .3s ease !important; }
-  .hover_info:hover {
-    color: #17a2b8 !important; }
 
-.hover_warning {
+.hover_warning:hover {
+  color: #ffc107 !important;
   transition: .3s ease !important; }
-  .hover_warning:hover {
-    color: #ffc107 !important; }
 
-.hover_danger {
+.hover_danger:hover {
+  color: #dc3545 !important;
   transition: .3s ease !important; }
-  .hover_danger:hover {
-    color: #dc3545 !important; }
 
-.hover_success {
+.hover_success:hover {
+  color: #28a745 !important;
   transition: .3s ease !important; }
-  .hover_success:hover {
-    color: #28a745 !important; }
 
-.hover_transparent {
+.hover_transparent:hover {
+  color: transparent !important;
   transition: .3s ease !important; }
-  .hover_transparent:hover {
-    color: transparent !important; }

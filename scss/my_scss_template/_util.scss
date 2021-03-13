@@ -1,15 +1,22 @@
-//border
-// $border-width-list: (
-//     "2": 2px,
-//     "3": 3px,
-//     "4": 4px,
-//     "5": 5px
-// );
+a {
+    text-decoration: none;
+    color: inherit;
+    &:hover {
+        text-decoration: none;
+    }
+}
 
-// @each $class-name, $value in $border-width-list {
-//     .border-#{$class-name} {
-//         border-width: $value !important;
-//     }
-// }
+.xl-container {
+    max-width: 1450px;
+    margin: auto;
+}
 
-
+.fit-img {
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
