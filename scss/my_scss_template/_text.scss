@@ -9,7 +9,7 @@
     }
 }
 
-@each $breakpoint-name, $breakpoint-value in $breakpoint-list {
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
     @media only screen and (min-width: $breakpoint-value) {
         @for $font-size-value from 10 through 80 {
             @if $font-size-value % 2 == 0 {

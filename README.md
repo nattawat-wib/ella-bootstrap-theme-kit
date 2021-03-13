@@ -1,4 +1,4 @@
-# :clap: Ella's Bootstrap Theme Kit v1.2.0 :clap:
+# :clap: Ella's Bootstrap Theme Kit v2.0 :clap:
 
 ![Bootstrap](https://img.shields.io/badge/bootstrap%20-b98aff.svg?&style=for-the-badge&logo=bootstrap&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS%20-hotpink.svg?&style=for-the-badge&logo=SASS&logoColor=white)
@@ -123,7 +123,16 @@
   > NOTE: font size is available only even number from 10 to 80
 
 ### 6. Borrow from Tailwind
-  !!!! COMING SOON !!!!!
+  #### Hover
+  | class           | hover color     |
+  | --------------- | --------------- |
+  | hover_primary   | primary color   |
+  | hover_secondary | secondary color |
+  | hover_light     | light color     |
+  | ...             | ...             |
+  | hover_dark      | dark color      |
+
+  use _ instead of : for prefixing state class from Tailwind
 
 ## Included
 
@@ -176,15 +185,20 @@ ella-bootstrap-theme-kit/
   - owl carousel
 
 #### edited features from previous version
+  - __add__ hover class
+  - __add__ fit-img class
+  - __edit__ rename variable in sass
+---
+last edit : 13/03/2021
+
+### previous version
+#### v1.2.0
   - __add__ images test folder
   - __add__ hover class BETA
   - __add__ .gitignore for node_modules
   - __edit__ css link & setup more folder
   - __move__ node-sass from devDependencies to dependencies
----
-last edit : 14/02/2021
 
-### previous version
 #### v1.1.0
   - __remove__ fs-1, ..., 9
   - __remove__ border class

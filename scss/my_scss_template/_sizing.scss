@@ -14,7 +14,7 @@ $viewport-size-list: (
             "100": 100vh,
         );
 
-@each $breakpoint-name, $breakpoint-value in $breakpoint-list {
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
     @media only screen and (min-width: $breakpoint-value) {
         @each $percent-size-name, $percent-size-value in $percent-size-list {
             

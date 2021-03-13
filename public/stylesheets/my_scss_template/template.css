@@ -844,3 +844,67 @@ a {
   left: 0;
   width: 100%;
   height: 100%; }
+
+.hover_primary:hover {
+  color: #0080C8 !important;
+  transition: .3s ease !important; }
+
+.hover_primary-light:hover {
+  color: #008AD1 !important;
+  transition: .3s ease !important; }
+
+.hover_primary-dark:hover {
+  color: #0080C8 !important;
+  transition: .3s ease !important; }
+
+.hover_secondary:hover {
+  color: #A5CD38 !important;
+  transition: .3s ease !important; }
+
+.hover_secondary-light:hover {
+  color: #3ACE01 !important;
+  transition: .3s ease !important; }
+
+.hover_secondary-dark:hover {
+  color: #A5CD38 !important;
+  transition: .3s ease !important; }
+
+.hover_gray:hover {
+  color: #7D7D7D !important;
+  transition: .3s ease !important; }
+
+.hover_gray-light:hover {
+  color: #F4F4F4 !important;
+  transition: .3s ease !important; }
+
+.hover_gray-dark:hover {
+  color: #616161 !important;
+  transition: .3s ease !important; }
+
+.hover_dark:hover {
+  color: #232323 !important;
+  transition: .3s ease !important; }
+
+.hover_light:hover {
+  color: #FDFDFD !important;
+  transition: .3s ease !important; }
+
+.hover_info:hover {
+  color: #17a2b8 !important;
+  transition: .3s ease !important; }
+
+.hover_warning:hover {
+  color: #ffc107 !important;
+  transition: .3s ease !important; }
+
+.hover_danger:hover {
+  color: #dc3545 !important;
+  transition: .3s ease !important; }
+
+.hover_success:hover {
+  color: #28a745 !important;
+  transition: .3s ease !important; }
+
+.hover_transparent:hover {
+  color: transparent !important;
+  transition: .3s ease !important; }
