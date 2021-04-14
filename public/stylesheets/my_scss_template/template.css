@@ -586,6 +586,24 @@ body {
 .fw-black {
   font-weight: 900 !important; }
 
+.text-indent-xsm {
+  text-indent: 10px !important; }
+
+.text-indent-sm {
+  text-indent: 25px !important; }
+
+.text-indent-md {
+  text-indent: 30px !important; }
+
+.text-indent-lg {
+  text-indent: 45px !important; }
+
+.text-indent-xl {
+  text-indent: 60px !important; }
+
+.text-indent-xxl {
+  text-indent: 75px !important; }
+
 .lh-xsm {
   line-height: 1 !important; }
 
@@ -603,6 +621,11 @@ body {
 
 .lh-xxl {
   line-height: 2.25 !important; }
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
 
 @media only screen and (min-width: 375px) {
   .w-xsm-25 {

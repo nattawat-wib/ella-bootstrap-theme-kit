@@ -16,7 +16,7 @@
                 .fs-#{$breakpoint-name}-#{$font-size-value} {
                     font-size: $font-size-value + px !important;
                 }
-            } 
+            }
         }
     }
 }
@@ -40,6 +40,22 @@ $font-weight-list: (
     }
 }
 
+//text-indent
+$text-indent-list: (
+    "xsm": 10px,
+    "sm": 25px,
+    "md": 30px,
+    "lg": 45px,
+    "xl": 60px,
+    "xxl": 75px,
+);
+
+@each $text-indent-name, $text-indent-value in $text-indent-list {
+    .text-indent-#{$text-indent-name} {
+        text-indent: $text-indent-value !important;
+    }
+}
+
 //line height
 $line-height-list: (
     "xsm": 1,
@@ -54,4 +70,11 @@ $line-height-list: (
     .lh-#{$line-height-name} {
         line-height: $line-height-value !important;
     }
+}
+
+//text-truncate
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
