@@ -149,9 +149,9 @@
  text-truncate : text truncate
 
   #### line clamp
- line-clamp-1 : line clamp 1 line 
- line-clamp-2 : line clamp 2 line
- line-clamp-3 : line clamp 3 line
+ line-clamp-1 : line clamp 1 line \n
+ line-clamp-2 : line clamp 2 line \n
+ line-clamp-3 : line clamp 3 line \n
 
   #### width fit content
  fit-content : width fit content
