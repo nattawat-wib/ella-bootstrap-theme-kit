@@ -134,6 +134,28 @@
 
   use _ instead of : for prefixing state class from Tailwind
 
+### 7. Extended utility (not include in any bootstrap)
+  #### text indent
+  | class           | indent space |
+  | --------------- | :----------: |
+  | text-indent-xsm |     10px     |
+  | text-indent-sm  |     25px     |
+  | text-indent-md  |     30px     |
+  | text-indent-lg  |     45px     |
+  | text-indent-xl  |     60px     |
+  | text-indent-xxl |     70px     |
+
+  #### text truncate
+ text-truncate : text truncate
+
+  #### line clamp
+ line-clamp-1 : line clamp 1 line 
+ line-clamp-2 : line clamp 2 line
+ line-clamp-3 : line clamp 3 line
+
+  #### width fit content
+ fit-content : width fit content
+
 ## Included
 
 ### files
